@@ -302,7 +302,7 @@ function resetFilters() {
       },
     ];
     displayPlayers();
-    document.getElementById("team-filter").value = "1200px";
-    document.getElementById("position-filter").value = "1200px";
+    document.getElementById("team-filter").value = "";
+    document.getElementById("position-filter").value = "";
   }
 }
